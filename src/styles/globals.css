@@ -1,0 +1,22 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'react-tree-graph/dist/style.css';
+
+body{
+    background-color: #f4f4f6;
+}
+
+.ant-drawer-content{
+border-radius: 8px;
+}
+.ant-drawer-right>.ant-drawer-content-wrapper{
+    box-shadow: none;
+    padding: 24px;
+}
+.ant-drawer-body{
+    background-color: #bcbcbc;
+}
+.overflow-auto::-webkit-scrollbar {
+    display: none;
+}
